@@ -662,11 +662,3 @@ if __name__ == "__main__":
      app = EnterpriseAnalytics()
      app.run()
 
-# app = Flask(__name__)
-# @app.route("/")
-# def hello_world():
-#     return "<p>Hello, World!</p>"
-#
-# @app.route("/tester")
-# def tester():
-#     return "<h1> This is a test header</h2>"
