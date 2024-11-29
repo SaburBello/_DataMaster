@@ -1,21 +1,17 @@
 import streamlit as st
 
-#from flask import Flask
+
 import pandas as pd
 import numpy as np
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 from scipy import stats
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
-import seaborn as sns
-import matplotlib.pyplot as plt
 import io
 import base64
-from datetime import datetime
 import warnings
+import plotly.express as px
+import plotly.graph_objects as go
 
 warnings.filterwarnings('ignore')
 
