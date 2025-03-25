@@ -2,43 +2,39 @@
 
 This application, built with Streamlit, provides a comprehensive suite for data upload, cleaning, analysis, and report generation. It's designed to streamline the process of extracting insights from various datasets through an intuitive user interface.
 
-## Features
+## 🚀 Overview
+**DataMaster** is a production-grade analytics platform built with Streamlit that enables end-to-end data analysis workflows. From raw data ingestion to automated report generation, it provides:
 
-- **Data Upload**: Supports CSV, Excel, and JSON file formats.
-- **Data Cleaning**: 
-    - Duplicate removal
-    - Missing value handling
-    - Outlier removal
-    - Column removal
-    - Data type formatting
-    - Feature scaling
-    - Categorical variable encoding
-- **Advanced Data Analysis**:
-    - Descriptive statistics
-    - Temporal analysis
-    - Distribution analysis
-    - Correlation analysis
-    - Pattern mining
-    - Clustering analysis
-- **Report Generation**: Generates an Excel report containing summary statistics and pivot analyses.
+- **Data Profiling** (Missing values, distributions, data types)
+- **AI-Powered Cleaning Suggestions** (Outlier detection, duplicate removal)
+- **Advanced Analytics** (Temporal trends, clustering, PCA, correlation analysis)
+- **Executive Reporting** (Excel exports with pivot tables/visualizations)
 
-## Getting Started
+Designed for analysts and data scientists seeking reproducibility and operational efficiency.
 
-### Prerequisites
+---
 
-- Python 3.7+
-- Streamlit (`pip install streamlit`)
-- Pandas (`pip install pandas`)
-- NumPy (`pip install numpy`)
-- SciPy (`pip install scipy`)
-- Scikit-learn (`pip install scikit-learn`)
-- Plotly Express (`pip install plotly-express`)
-- Openpyxl (`pip install openpyxl`)
+## 🔥 Key Features
+| Module | Capabilities | Technologies Used |
+|--------|--------------|-------------------|
+| **Data Upload** | CSV/Excel/JSON support • Column filtering • Auto-type detection | `Pandas` `Streamlit` |
+| **Data Cleaning** | Missing value handling • Outlier removal (Z-Score/IQR) • Feature scaling • One-hot encoding | `Scipy` `scikit-learn` |
+| **Advanced Analytics** | Time-series analysis • Cluster analysis (K-Means) • Correlation matrices • PCA | `Plotly` `scikit-learn` |
+| **Reporting** | Automated Excel reports • Pivot tables • Downloadable outputs | `OpenPyXL` `Base64` |
 
-### Installation
+---
 
-1. Clone the repository:
+## ⚙️ Tech Stack
+- **Frontend**: `Streamlit`  
+- **Data Processing**: `Pandas` `NumPy`  
+- **Machine Learning**: `scikit-learn` (PCA, K-Means)  
+- **Visualization**: `Plotly`  
+- **Utilities**: `Scipy` (statistics), `OpenPyXL` (Excel reporting)  
 
-```bash
-git clone [repository URL]
-cd [repository directory]
+---
+
+## 🛠️ Installation
+1. **Clone Repository**:
+   ```bash
+   git clone https://github.com/SaburBello/DataMaster.git
+   cd DataMaster
